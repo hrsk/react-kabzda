@@ -1,8 +1,13 @@
-export const  App = () => {
+import {EffectCounter} from "./EffectCounter.tsx";
+import {EffectRequest} from "./EffectRequest.tsx";
+
+export const App = () => {
 
     return (
         <div>
-            app
+            <EffectCounter/>
+            <EffectRequest/>
+            {/*<EffectInterval/>*/}
         </div>
     )
 }
